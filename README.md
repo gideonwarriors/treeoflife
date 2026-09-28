@@ -4,8 +4,8 @@
 
 ## 正式網站與發布
 
-- 網站：https://vincenttuan.github.io/treeoflife/
-- 儲存庫：https://github.com/vincenttuan/treeoflife
+- 網站：https://gideonwarriors.github.io/treeoflife/
+- 儲存庫：https://github.com/gideonwarriors/treeoflife
 - 發布來源：`main` 分支根目錄，由 GitHub Pages 建置。
 - 目前版本見 `VERSION` 與網站頁尾；每版附 Git tag 和 `CHANGELOG.md`。
 - 四段版本依序進位：`1.0.0.1 → 1.0.0.2 → … → 1.0.0.9 → 1.0.1.0`。後三段為 0–9，第一段無上限。
