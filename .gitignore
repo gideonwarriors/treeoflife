@@ -1,0 +1,7 @@
+*token*
+.env*
+*.pem
+*.key
+__pycache__/
+website-work/
+*.zip
