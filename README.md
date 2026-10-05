@@ -2,7 +2,7 @@
 
 網站採用輕量 HTML 與獨立 CSS、JavaScript、圖片資源。文字和版面先顯示，非首屏圖片在捲動接近時才載入；照片提供不同尺寸 WebP，手機自動選擇合適大小。邀請卡與組織圖先顯示預覽，點選放大時載入保持原尺寸的壓縮 WebP；「下載邀請卡」保留原始 JPG。首頁的十字架以 CSS 繪製，不必等待大型圖片。
 
-所有內容仍可在同一頁順暢閱讀。沒有前端框架、外部字型或付費服務；即使 JavaScript 未完成載入，正文仍能閱讀。CSS/JS/圖片檔名包含內容雜湊，讓未變更的資源可重複使用瀏覽器快取，變更的資源使用新網址。
+首頁集中呈現教會重點；牧師姓名旁的「牧師介紹」連結可閱讀獨立的詳細履歷頁 `pastor.html`。沒有前端框架、外部字型或付費服務；即使 JavaScript 未完成載入，正文仍能閱讀。CSS/JS/圖片檔名包含內容雜湊，讓未變更的資源可重複使用瀏覽器快取，變更的資源使用新網址。
 
 ## 正式網站與發布
 
@@ -31,7 +31,7 @@
 
 支援桌機與手機、手機選單、原生展開內容、組織圖與邀請卡放大視窗、鍵盤操作及減少動態效果偏好。放大組織圖後可捲動，按 Esc 即可關閉。
 
-日後更新應編輯本機 `website-work/site.template.html` 並執行建置及發布程式。建置會輸出 `index.html`、`assets/` 與 `asset-manifest.json`；上傳時必須包含 manifest 中列出的全部資源，不能只上傳 HTML。`website-work` 含私人來源資訊，**不需要上傳**。不要把圖片重新內嵌到 HTML。
+日後更新應編輯本機 `website-work/site.template.html` 並執行建置及發布程式。牧師詳細介紹請編輯 `website-work/pastor.template.html`。建置會輸出 `index.html`、`pastor.html`、`assets/` 與 `asset-manifest.json`；上傳時必須包含 manifest 中列出的全部資源，不能只上傳 HTML。`website-work` 含私人來源資訊，**不需要上傳**。不要把圖片重新內嵌到 HTML。
 
 ## YouTube 影音
 
