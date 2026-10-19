@@ -31,7 +31,7 @@
 
 支援桌機與手機、手機選單、原生展開內容、組織圖與邀請卡放大視窗、鍵盤操作及減少動態效果偏好。放大組織圖後可捲動，按 Esc 即可關閉。
 
-日後更新應編輯本機 `website-work/site.template.html` 並執行建置及發布程式。牧師詳細介紹請編輯 `website-work/pastor.template.html`。建置會輸出 `index.html`、`pastor.html`、`assets/` 與 `asset-manifest.json`；上傳時必須包含 manifest 中列出的全部資源，不能只上傳 HTML。`website-work` 含私人來源資訊，**不需要上傳**。不要把圖片重新內嵌到 HTML。
+日後更新應編輯本機 `website-work/site.template.html` 並執行建置及發布程式。牧師詳細介紹請編輯 `website-work/pastor.template.html`；基甸勇士詳細介紹請編輯 `website-work/gideon.template.html`。建置會輸出 `index.html`、`pastor.html`、`gideon.html`、`assets/` 與 `asset-manifest.json`；上傳時必須包含 manifest 中列出的全部資源，不能只上傳 HTML。`website-work` 含私人來源資訊，**不需要上傳**。不要把圖片重新內嵌到 HTML。
 
 ## YouTube 影音
 
@@ -60,3 +60,9 @@
 固定識別為 `gideonwarriors.github.io/treeoflife`，不要加入版號、查詢參數或分段錨點，也不要使用 `extraCount` 人為增加數字。部署新版不歸零。本機／檔案預覽不送出計數請求。
 
 計數圖片於頁面 load 後低優先權讀取，不載入第三方 JavaScript；請求不附帶網頁 Referer。此為外部服務，瀏覽器會連線至 hits.sh；服務連線失敗會顯示「統計暫時無法讀取」，不顯示假的 0。數字由第三方維護，非 GitHub 官方流量或精確分析報表。
+
+## 基甸勇士事工介紹
+
+首頁事工專區連結至獨立的 `gideon.html`，呈現異象、門徒裝備、跨地區宣教、歷史服事足跡與四項事工方向。依教會提供資料整理，歷史活動不當作現行招生或活動宣傳，未載明日期的照片不推測年份。聖光教會的食物發放記錄明確標示為相關牧養足跡。
+
+三張精選照片由本機原檔建置為 480／960px WebP，保留原比例、延遲載入；首頁不載入這些照片。新頁面無 JavaScript 或外部字型。原始照片與歷史報刊留在本機，不整批公開。
